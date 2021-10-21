@@ -1,0 +1,34 @@
+div.video-player-controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 15px;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, 80));
+    color: white;
+    line-height: 25px;
+    font-size: 20px;
+    transition: opacity 0.25s ease-in;
+}
+
+div.control-wrapper {
+    line-height: 30px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.video-player-controls div.control-wrapper button {
+    background: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 10px;
+    margin-bottom: -0.3em;
+    width: 1em;
+}
+
+div.video-player-controls.fade {
+    opacity: 0;
+}

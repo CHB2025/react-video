@@ -1,0 +1,28 @@
+div.progress-bar-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    height: 12px;
+}
+div.progress {
+    height: 3px;
+    position: absolute;
+    opacity: 85%;
+    top: 0;
+    left: 0;
+    transition: height 0.25s;
+}
+div.progress-bar-container:hover .progress {
+    height: 5px;
+    transition: height 0.25s;
+}
+div.progress.background {
+    width: 100%;
+    background-color: white;
+}
+div.progress.state {
+    background-color: red;
+}
+div.progress.buffer {
+    background-color: gray;
+}
